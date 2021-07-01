@@ -1,0 +1,45 @@
+.line{
+    height: 4px;
+    width: 70px;
+    background-color:black;   
+    margin: 1px auto;
+}
+body{
+    text-align: center;
+    font-family: Comic sans-serif;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    position: fixed;
+}
+.link{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#vid{
+    background-color: cyan;
+}
+#streams{
+    background-color: blanchedalmond;
+}
+#about{
+    background-color: aqua;
+}
+#Contact{
+    background-color: bisque;
+}
+#home{
+    background-color: lightgreen;
+}
+.link:hover{
+    background-color: blue;
+    color: white;
+}
